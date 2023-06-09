@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://github.com/nvnieuwk/immutable-meta-issue/schema.json",
+    "title": "immutable meta issue",
+    "description": "immutable meta issue",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string",
+                "meta": ["id"]
+            },
+            "number": {
+                "type": "number"
+            }
+        }
+    }
+}
